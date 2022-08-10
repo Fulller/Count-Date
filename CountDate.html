@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CountDate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Righteous&display=swap" rel="stylesheet">
+    <title>TÍNH KHOẢNG CÁCH NGÀY</title>
+</head>
+<body>
+    <div id="header"><h1>Calculate the distance of super vip pro</h1></div>
+    <form action="" id="Form-date">
+        <h2 class="form-heading">By Date:</h2>
+        <div class="form-group">
+            <label for="Start-date" class="form-group-lable">Since:</label>
+           <input type="date" id="input-startdate" class="form-group-input" name="Start-date">
+        </div>
+        <div class="form-group">
+            <label for="End-date" class="form-group-lable">To date:</label>
+            <input type="date" id="input-enddate" class="form-group-input" name="End-date">
+        </div>
+        <input type="submit" class="input-submit" value="SEND">
+        <div id="output-form-date">The number of days is: <span id="output-form-date-Num">0</span></div>
+    </form>
+</body>
+    <script src="./CountDate.js"></script>
+    <script>
+        CountDate({
+            SelectorForm: '#Form-date',
+            SelectorStart: '#input-startdate',
+            SelectorEnd: '#input-enddate',
+            SelectorNoti: '#output-form-date-Num',
+        })
+    </script>
+</html>

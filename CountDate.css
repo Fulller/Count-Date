@@ -1,0 +1,105 @@
+html{
+    font-family: 'Righteous', cursive;
+    background-color: black;
+    color: white;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(https://nypost.com/wp-content/uploads/sites/2/2021/11/astrology-sun-moon-rising-signs-1-copy.jpg?quality=75&strip=all&w=1024);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: ; */
+    margin: 0;
+    padding: 20px;
+}
+#header{
+    border: 3px solid yellow;
+    text-align: center;
+    width: 700px;
+    max-width:  100%;
+    margin: 40px auto;
+    border-radius: 50px;
+    color: yellow;
+}
+#Form-date{
+    display: flex;
+    align-items: center;
+    background-color: rgb(20, 20, 84);
+    padding: 30px;
+    border-radius: 30px;
+}
+.form-heading{
+    margin: 0;
+    font-size: 30px;
+    margin: 1px 30px 10px 0px;
+    color: red;
+}
+.form-group{
+    font-size: 20px;
+    margin: 10px 20px 10px 0px;
+}
+.form-group-lable{
+    /* color: yellow; */
+}   
+.form-group-input{
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid white;
+    background-color: rgb(20, 20, 84);
+    font-size: 20px;
+    outline: none;
+}
+#input-startdate{
+
+}
+#input-enddate{
+
+}
+.input-submit{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}   
+#output-form-date{
+    margin: 10px 20px;
+}
+#output-form-date-Num{
+    color: red;
+    font-size: 30px;
+}
+@media screen and (max-width: 900px ) {
+    #Form-date{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: rgb(20, 20, 84);
+        padding: 30px;
+        border-radius: 30px;
+    }
+    #output-form-date{
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
